@@ -154,7 +154,9 @@ Holi Is Colorful, Diwali Is Light Full And Rightful, Rakhi Has Made Our Relation
 function main(){
 var t= window.location.search;
 var y= "?g=";
-var p=t.replace(y,"");
+var mp="+";
+var x=t.replace(mp," ")
+var p=x.replace(y,"");
 document.getElementById("n").textContent=p;
 document.getElementById("nn").textContent=p;
 document.title=p+" Send You a Gift";
