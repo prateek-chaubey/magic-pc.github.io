@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"> 
+<meta name="google" content="notranslate"> 
+<meta property="og:type" content="Happy Raksha Bandhan"> 
+<meta property="og:title" content="Wishing You Happy Raksha Bandhan"> 
+<meta property="og:url" content="http://wish-pkc.github.io/"> 
+<meta property="og:description" content="Create Raksha Bandhan Wish"> 
+<meta property="og:site_name" content="Happy Raksha Bandhan"> 
+<meta property="og:image" content="unnamed.jpg"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+<title>Wish PKC</title>
+<style type="text/css">
+body {
+background: linear-gradient(90deg,#666000,#111000);
+}
+#box{
+background:transparent;
+box-shadow:0px 1px 10px #aaa;
+width:100%;
+height:1600px;
+}
+#nam{
+text-align:center;
+}
+#nam h1{
+font-size:70px;
+height:80px;
+padding:0;
+margin:0;
+text-transform:uppercase;
+font-family:cursive;
+background-image:url("observingsunposter.jpg");
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+animation:rst 2s infinite;
+}
+.des{
+text-align:center;
+color:green;
+font-family:cursive;
+font-size:30px;
+}
+.lm h1{
+color: maroon;
+text-align:right;
+margin-right:2px;
+font-size:50px;
+font-family:cursive;
+}
+form input[type="text"],input{
+outline:none;
+background:rgba(100,100,100,.6);
+border:5px solid orange;
+border-radius:10px;
+font-family:cursive;
+text-align:center;
+font-size:20px;
+color:white;
+width:70%;
+height:40px;
+animation:rs 2s infinite;
+}
+form input[type="submit"]{
+background:rgba(100,100,100,.6);
+border:5px solid green;
+height:50px;
+font-size:20px;
+width:25%;
+animation:r 1s infinite;
+}
+@keyframes rs{
+0%{transform:scale(.9);}
+50%{transform:scale(1);}
+100%{transform:scale(.9);}
+
+}
+@keyframes rst{
+0%{background-position:left;}
+0%{background-position:right;}
+
+}
+@keyframes r{
+0%{transform:rotateY(0deg);}
+100%{transform:rotateY(360deg);}
+
+}
+form{
+position:fixed;
+bottom:3px;
+width:100%;
+display:flex;
+}
+input::placeholder{
+color:white;
+}
+.img{
+width:100%;
+}
+strong{
+color:red;
+font-family:cursive;
+font-size:25px;
+}
+pre{
+font-size:16px;
+}
+.pkc{
+text-align:center;
+margin-top:10px;
+color:yellow;
+}
+.pkc strong{
+color:white;
+}
+</style>
+</head>
+<body onload="main()">
+<div id="box" >
+<div id="nam" ><h1 id="n" ></h1></div><br><br>
+<div class="des" style="color:white"  id="tyt"  >
+<div id="ttt" ></div>
+</div><br>
+<img src="unnamed.gif" class="img"  ><br>
+<div class="des" >
+Wishes You and Your Family
+A very Happy Raksha Bandhan.
+</div><br>
+<img src="unnamed (1).jpg" class="img"  ><br>
+<div class="des" style="color:yellow"  >
+<pre><strong>R-</strong>Re-affirming love and affection</pre>
+<pre><strong>A-</strong>A-prayer for long life</pre>
+<pre><strong>K-</strong>Keeping memories alive</pre>
+<pre><strong>H-</strong>Happiness and Laughter</pre>
+<pre><strong>I-</strong>Innumerable shared stories</pre>
+</div>
+<div class="lm" ><h1 id="nn" ></h1></div>
+<center><img src="happy rakshabandhan gif.gif"  style="width:90%; height:160px"  class="img" ></center>
+<div class="des" style="color:#009999"  >
+Holi Is Colorful, Diwali Is Light Full And Rightful, Rakhi Has Made Our Relationship Powerful.
+</div>
+<center><img src="unnamed.jpg"  style="width:90%; height:160px"  class="img" ></center>
+<div class="pkc" >MADE BY <strong>PRATEEK</strong></div>
+    <form method="GET" action="wish1.html"> 
+<input pattern="[A-Za-z].{1,}" autocomplete="false" maxlength="20"   title="Only Name"  type="text" name="g"  placeholder="👉 Enter Your name"  required>
+<input type="submit" value=" Go" ></form>
+
+</div>
+<script type="text/javascript">
+function main(){
+var t= window.location.search;
+var y= "?g=";
+var mp="+";
+var x=t.replace(mp," ")
+var p=x.replace(y,"");
+document.getElementById("n").textContent=p;
+document.getElementById("nn").textContent=p;
+document.title=p+" Send You a Gift";
+if(document.getElementById("n").textContent==""){
+document.getElementById("n").textContent="[Your Name]";
+document.getElementById("nn").textContent="[Your Name]";
+}
+if(document.getElementById("n").textContent.length>5){
+document.getElementById("n").style.fontSize="50px";
+document.getElementById("nn").style.fontSize="30px";
+}
+if(document.getElementById("n").textContent.length>13){
+document.getElementById("n").style.fontSize="35px";
+document.getElementById("nn").style.fontSize="30px";
+}
+}
+
+var x = setInterval(function(){
+	var now = new Date();
+	var eventDate = new Date(2018, 07, 26);
+
+	var currentTiime = now.getTime();
+	var eventTime = eventDate.getTime();
+
+	var remTime = eventTime - currentTiime;
+
+	var s = Math.floor(remTime / 1000);
+	var m = Math.floor(s / 60);
+	var h = Math.floor(m / 60);
+	var d = Math.floor(h / 24);
+
+	h %= 24;
+	m %= 60;
+	s %= 60;
+
+	h = (h < 10) ? "0" + h : h;
+	m = (m < 10) ? "0" + m : m;
+	s = (s < 10) ? "0" + s : s;
+
+	document.getElementById("ttt").innerHTML = d+' Days '+h+' Hours '+m+'Minutes '+s+' Seconds <br> Before';
+
+if (remTime < 0) {
+  clearInterval(x);
+  document.getElementById("tyt").innerHTML = " ";
+}
+},50)
+
+</script>
+</body>
+</html>
+
+<!--
+
+function main(){
+var t= window.location.search;
+var r = "?g=" ;
+var p = t.replace(r,"");
+document.getElementById("n").textContent=p;
+document.getElementById("nn").textContent=p;
+document.title=p+" Send you a gift";
+}
